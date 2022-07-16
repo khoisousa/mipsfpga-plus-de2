@@ -27,12 +27,12 @@ MIPSfpga+ currently works on these FPGA boards:
 <li><a href="http://de0-nano.terasic.com.tw">Terasic DE0-Nano</a> board with Altera Cyclone IV FPGA.</li>
 <li><a href="http://de0.terasic.com">Terasic DE0</a> with Altera Cyclone III</li>
 <li><a href="http://de1.terasic.com">Terasic DE1</a> with Altera Cyclone II</li>
-<li><a href="http://de1.terasic.com">Terasic DE2</a> with Altera Cyclone II</li>
+<li><a href="http://de2.terasic.com">Terasic DE2</a> with Altera Cyclone II</li>
 <li><a href="http://de10-lite.terasic.com">Terasic DE10-Lite</a> with Altera MAX10</li>
 <li><a href="http://de10-nano.terasic.com">Terasic DE10-Nano</a> with Altera Cyclone V</li>
 </ol>
 
-There are three planned ports:
+There are two planned ports:
 
 <ol>
 <li><a href="http://marsohod.org/plata-marsokhod3">Marsohod 3</a> board with Altera MAX10 FPGA</li>
@@ -47,7 +47,7 @@ MIPSfpga+ (as well as the original MFGS package) can be also used on a workstati
 
 <ul>
 <li>In order to use MIPSfpga or MIPSfpga+ on a workstation with 32-bit Windows, it is necessary to use <a href="https://sourcery.mentor.com/GNUToolchain/subscription3537?lite=MIPS">Mentor Sourcery CodeBench Lite Edition for MIPS ELF</a> instead of Imagination Codescape MIPS SDK Essentials. This requires some minimal modifications of certain scripts (changing the program name prefixes).</li>
-<li>In order to use MIPSfpga or MIPSfpga+ with Altera FPGAs on a workstation with 32-bit Windows <i>or</i> 32-Linux, it is necessary to use <a href="http://dl.altera.com/13.1/?edition=web">Altera Quartus II Web Edition version 13.1</a> instead of the latest <a href="http://dl.altera.com/15.1/?edition=lite">version 15.1</a> that does not work on workstations with 32-bit operating systems.</li>
+<li>In order to use MIPSfpga or MIPSfpga+ with Altera FPGAs on a workstation with 32-bit Windows <i>or</i> 32-Linux, it is necessary to use <a href="http://dl.altera.com/13.1/?edition=web">Altera Quartus II Web Edition version 13.1</a> instead of later versions that does not work on workstations with 32-bit operating systems.</li>
 </ul> 
 
 How to synthesize mipsfpga-plus for Terasic DE0-CV board:
