@@ -26,7 +26,7 @@
 `define MFP_DEMO_INTERRUPTS
 `define MFP_DEMO_LIGHT_SENSOR
 `define MFP_DEMO_CACHE_MISSES
-`define MFP_DEMO_PIPE_BYPASS
+//`define MFP_DEMO_PIPE_BYPASS
 
 //
 //  Memory type (choose one)
