@@ -22,19 +22,6 @@ set_global_assignment -name TOP_LEVEL_ENTITY de2
 # Date created = 20:30:43  January 18, 2016
 #
 # -------------------------------------------------------------------------- #
-#
-# Notes:
-#
-# 1) The default values for assignments are stored in the file:
-#		de1_assignment_defaults.qdf
-#    If this file doesn't exist, see file:
-#		assignment_defaults.qdf
-#
-# 2) Altera recommends that you do not modify this file. This
-#    file is updated automatically by the Quartus II software
-#    and any changes you make may be lost or overwritten.
-#
-# -------------------------------------------------------------------------- #
 
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:30:43  JANUARY 18, 2016"
@@ -515,7 +502,7 @@ set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_instance_assignment -name IO_STANDARD LVTTL -to FL_ADDR[20]
 set_instance_assignment -name IO_STANDARD LVTTL -to FL_ADDR[21]
 
-set_global_assignment -name VERILOG_FILE ../de1.v
+set_global_assignment -name VERILOG_FILE ../de2.v
 
 set_global_assignment -name VERILOG_FILE ../../../system_rtl/mfp_ahb_gpio_slave.v
 set_global_assignment -name VERILOG_FILE ../../../system_rtl/mfp_ahb_lite_matrix.v
@@ -697,7 +684,7 @@ set_global_assignment -name SEARCH_PATH ..
 set_global_assignment -name SEARCH_PATH ../../../system_rtl
 set_global_assignment -name SEARCH_PATH ../../../core
 
-#set_global_assignment -name CDF_FILE de1.cdf
-set_global_assignment -name SDC_FILE de1.sdc
+#set_global_assignment -name CDF_FILE de2.cdf
+set_global_assignment -name SDC_FILE de2.sdc
 
 set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
